@@ -1,0 +1,30 @@
+.Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .Button {
+    background-color: #ff6600; 
+    color: #fff; 
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .Number {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  .Button:disabled {
+    background-color: #ccc; 
+    cursor: not-allowed;
+  }

@@ -1,0 +1,54 @@
+.NavBar {
+    background-color: #333333; 
+    color: white; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .NavBar a {
+    text-decoration: none; 
+    color: white; 
+  }
+
+  .NavBar h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .Categories {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .NavBarOption {
+    text-decoration: none;
+    color: #ff6600;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .NavBarOption:hover {
+    color: #ff6600; 
+  }
+  
+  .ActiveOption {
+    color: #ff6600; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    .Categories {
+      display: none; 
+    }
+  
+    .NavBar {
+      flex-direction: column; 
+      text-align: center;
+    }
+  
+    .CartWidget {
+      margin-top: 10px; 
+    }
+  }

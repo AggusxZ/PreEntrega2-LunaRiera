@@ -1,0 +1,17 @@
+.cart-widget {
+    display: flex;
+    align-items: center; 
+    background-color: #ff6600; 
+    padding: 10px; 
+    border-radius: 5px; 
+  }
+  
+  .cart-image {
+    width: 24px; 
+    margin-right: 5px; 
+  }
+  
+  .cart-count {
+    font-size: 18px; 
+    color: white; 
+  }
