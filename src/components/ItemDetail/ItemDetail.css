@@ -1,26 +1,43 @@
 .CardItem {
-    background-color: #fff; 
-    border: 1px solid #ccc; 
-    padding: 20px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    max-width: 400px;
-  }
-  
-  .ItemHeader {
-    font-size: 24px; 
-    margin-bottom: 10px; 
-  }
-  
-  .ItemImg {
-    max-width: 100%; 
-    height: auto; 
-  }
-  
-  .Info {
-    margin-top: 10px; 
-    max-width: 100%;
-  }
-  
-  .ItemFooter {
-    margin-top: 20px; 
-  }
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+.ItemHeader {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.ItemImg {
+  max-width: 100%;
+  height: auto;
+}
+
+.Info {
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+.ItemFooter {
+  margin-top: 20px;
+}
+
+.ItemFooter .Option {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.ItemFooter .Option:hover {
+  background-color: #0056b3;
+}
